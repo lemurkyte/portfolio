@@ -1,0 +1,95 @@
+/* ./assets/css/main.css */
+
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @layer scroll-m-20;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @layer text-slate-700;
+}
+
+
+a {
+  text-decoration: underline;
+}
+
+#__nuxt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  @layer inline-flex w-6 h-6;
+}
+
+.icon.solid {
+  @layer fill-slate-500;
+}
+
+.icon.stroke {
+  @layer stroke-slate-500;
+}
+
+.cta {
+  @layer p-1.5 px-2 bg-slate-50 border border-slate-200 font-semibold rounded-lg;
+  @layer transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
+}
+
+.cta.w-icon {
+  @layer flex items-center gap-2 pr-3;
+}
+
+.img-cont img {
+  @layer h-full w-full object-cover;
+}
+
+.article-tags {
+  @layer flex gap-2 py-2;
+}
+
+.article-tags .tag {
+  @layer bg-slate-100 text-slate-700 text-sm p-2 py-1 rounded-md;
+  @layer transition-all !py-0.5 hover:-translate-y-0.5;
+}
+
+/* BLOG PAGES */
+
+.page-heading {
+  @layer p-12 bg-slate-50;
+}
+
+.page-heading>.wrapper {
+  @layer max-w-3xl m-auto;
+}
+
+.page-section {
+  @layer p-4 py-8 m-auto max-w-3xl;
+}
+
+.article-list {
+  @layer flex flex-col gap-6;
+}
+
+.article-item {
+  @layer pt-6 first-of-type:border-none border-t border-slate-200;
+}
+
+.article-item a {
+  @layer no-underline;
+}
+
+.article-item>*>.wrapper {
+  @layer flex items-start gap-4;
+}
