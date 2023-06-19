@@ -6,7 +6,7 @@ export default defineNuxtConfig({
           '@nuxtjs/tailwindcss',
           '@nuxt/image-edge',
         ],
-        
+
         tailwindcss: {
           cssPath: '~/assets/css/main.css',
         },

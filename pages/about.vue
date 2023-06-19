@@ -79,7 +79,7 @@
                             <h3 class="text-lg font-semibold ">Web Development student</h3>
                             <h5 class="text-md font-medium ">Erhvervsakademi SydVest</h5>
                             <p class="text-base font-normal" style="padding-bottom: 40px;">Started as Multimedia Design &
-                                Communication AP-degree followed by Web Development Top-up <br><br>
+                                Communication AP-degree followed by Web Development Top-up. <br><br>
                                 Courses:<br>
                                 • Web programming <br>
                                 • Development environment<br>
@@ -97,7 +97,7 @@
                             <h5 class="text-md font-medium ">Byens Bilpleje</h5>
                             <p class="text-base font-normal" style="padding-bottom: 40px;">Cleaning vehicle interiors and
                                 exteriors in compliance with all company standards and client requests, managing order
-                                system, training new employees. Working with: Volvo, Ford, Autocentralen <br><br>
+                                system, training new employees. Working within: <strong>Bjarne Nielsen, Autocentralen, Terminalen.</strong><br><br>
                                 • Ability to multitask and work as a team <br>
                                 • Attention to detail <br>
                                 • Time management <br>

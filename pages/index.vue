@@ -1,11 +1,16 @@
+<script setup>
+import VueCursor from '@/components/VueCursor.vue';
+</script>
+
 <template>
+     <VueCursor></VueCursor>
   <div class="hero-image">
     <div class="hero-text">
       <div class="text-wrap">
         <h1>RESPONSIBLE INNOVATION & UX</h1>
         <p>I help my clients innovate with care and build responsible products to be proud of.</p>
         <div>
-          <button class="button"><a href="/contact">Get in touch</a></button>
+          <a href="/contact"><button class="button">Get in touch</button></a>
         </div>
       </div>
     </div>
@@ -39,7 +44,6 @@
       presence</strong>, I would love to connect with you. Let's collaborate and make your vision a reality!
     </div>
   </div>
-
   <Services />
   <Clients />
 
