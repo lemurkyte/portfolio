@@ -1,7 +1,3 @@
-<script setup>
-import VueCursor from '@/components/VueCursor.vue';
-</script>
-
 <template>
   <div class="hero-image">
     <div class="hero-text">
@@ -13,21 +9,7 @@ import VueCursor from '@/components/VueCursor.vue';
         </div>
       </div>
     </div>
-    <div class="hero-image-right">
-      <img
-  sizes="(min-width: 50em) 50em, 100vw"
-  srcset="https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_256/v1686654357/Portfolio/girl_t2flqz.jpg 256w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_512/v1686654357/Portfolio/girl_t2flqz.jpg 512w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_768/v1686654357/Portfolio/girl_t2flqz.jpg 768w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1024/v1686654357/Portfolio/girl_t2flqz.jpg 1024w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1280/v1686654357/Portfolio/girl_t2flqz.jpg 1280w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1024/v1686654357/Portfolio/girl_t2flqz.jpg 1024w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1710/v1686654357/Portfolio/girl_t2flqz.jpg 1710w,
-          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_2048/v1686654357/Portfolio/girl_t2flqz.jpg 2048w,
-          "
-  src="https://res.cloudinary.com/dgawamzxe/image/upload/v1686654357/Portfolio/girl_t2flqz.jpg"
-  alt="Ugne-Sileikyte" />
-    </div>
+//place for headeris
   </div>
 
   <div class="centered-paragraph">

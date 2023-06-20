@@ -9,7 +9,7 @@
 
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Want to collaborate or
         have any questions? Write me a message!</p>
-      <form action="#" class="space-y-8">
+      <form name="contact" method="POST" data-netlify="true" action="#" class="space-y-8">
         <div>
           <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
           <input type="email" id="email"

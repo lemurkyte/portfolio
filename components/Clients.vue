@@ -14,7 +14,7 @@
                 <div class="client-item hvr-grow">
                     <a href="https://shareone.dk/">
                         <div class="client-logo ">
-                            <img src="img/shareone.png" class="img-fluid" alt="shareone-logo">
+                            <img src="@/public/img/shareone.png" class="img-fluid" alt="shareone-logo">
                         </div>
                     </a>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="client-item hvr-grow">
                     <a href="https://bachelorette.dk/">
                         <div class="client-logo">
-                            <img src="img/bachelorette.png" class="img-fluid" alt="bachelorette-logo">
+                            <img src="@/public/img/bachelorette.png" class="img-fluid" alt="bachelorette-logo">
                         </div>
                     </a>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="client-item hvr-grow" style="object-fit: contain;">
                     <a href="https://erikona.dk/">
                         <div class="client-logo" style="object-fit: contain;">
-                            <img src="img/erikona.png" class="img-fluid" alt="erikona-logo">
+                            <img src="@/public/img/erikona.png" class="img-fluid" alt="erikona-logo">
                         </div>
                     </a>
                 </div>
@@ -38,7 +38,7 @@
                 <div class="client-item hvr-grow">
                     <a href="https://tuned.dk/">
                         <div class="client-logo">
-                            <img src="img/tuned.png" class="img-fluid" alt="tuned-logo">
+                            <img src="@/public/img/tuned.png" class="img-fluid" alt="tuned-logo">
                         </div>
                     </a>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="client-item hvr-grow">
                     <a href="https://dinhjemmefrisor.dk/">
                         <div class="client-logo">
-                            <img src="img/dinhjemmefrisor.png" class="img-fluid" alt="dinhjemmefrisor-logo">
+                            <img src="@/public/img/dinhjemmefrisor.png" class="img-fluid" alt="dinhjemmefrisor-logo">
                         </div>
                     </a>
 

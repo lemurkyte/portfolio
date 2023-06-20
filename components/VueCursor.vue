@@ -15,18 +15,25 @@ export default {
       const x = e.clientX;
       const y = e.clientY;
       cursor.value.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
-      cursorInner.value.style.left = x + 'px';
-      cursorInner.value.style.top = y + 'px';
+
+      if (cursorInner.value) {
+        cursorInner.value.style.left = x + 'px';
+        cursorInner.value.style.top = y + 'px';
+      }
     };
 
     const onMouseDown = () => {
       cursor.value.classList.add('click');
-      cursorInner.value.classList.add('cursorinnerhover');
+      if (cursorInner.value) {
+        cursorInner.value.classList.add('cursorinnerhover');
+      }
     };
 
     const onMouseUp = () => {
       cursor.value.classList.remove('click');
-      cursorInner.value.classList.remove('cursorinnerhover');
+      if (cursorInner.value) {
+        cursorInner.value.classList.remove('cursorinnerhover');
+      }
     };
 
     const addHoverClass = (el) => {
