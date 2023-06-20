@@ -2,23 +2,27 @@
   <section>
     <div>
       <p>Want to collaborate or have any questions? Write me a message!</p>
-      <form name="contact" method="POST" data-netlify="true" action="#" class="space-y-8">
-        <div>
-          <label for="email">Your email</label>
-          <input type="email" id="email" name="email" placeholder="name@flowbite.com" required>
-        </div>
-        <div>
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" placeholder="Let us know how we can help you" required>
-        </div>
-        <div>
-          <label for="message">Your message</label>
-          <textarea id="message" name="message" rows="6" placeholder="Leave a comment..."></textarea>
-        </div>
-        <div>
-          <button type="submit">Send message</button>
-        </div>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
+
     </div>
   </section>
 </template>
