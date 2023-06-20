@@ -3,7 +3,6 @@ import VueCursor from '@/components/VueCursor.vue';
 </script>
 
 <template>
-     <VueCursor></VueCursor>
   <div class="hero-image">
     <div class="hero-text">
       <div class="text-wrap">

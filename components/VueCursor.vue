@@ -78,13 +78,12 @@ export default {
 }
 
 .hover {
-  background-color: red;
-  opacity: 0.5;
+  background-color: white;
 }
 
 .cursorinnerhover {
   width: 50px;
   height: 50px;
-  opacity: 0.5;
+  background-color: #D1C0A8;
 }
 </style>

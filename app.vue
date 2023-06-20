@@ -22,6 +22,7 @@
 </script>
 
 <template>
+       <VueCursor></VueCursor>
   <TheNavigation />
 
     <NuxtLayout>
