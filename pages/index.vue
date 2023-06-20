@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-//place for headeris
+   <!-- images-->
   </div>
 
   <div class="centered-paragraph">
