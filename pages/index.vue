@@ -11,18 +11,7 @@
     </div>
    <!-- images-->
   </div>
-  <form name="contact" netlify>
-    <input type="hidden" name="form-name" value="contact" />
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+
   <div class="centered-paragraph">
     <h2>Find out more about me</h2>
     <div class="paragraph">
