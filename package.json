@@ -20,6 +20,7 @@
     "@luxdamore/vue-cursor-fx": "^1.6.2",
     "@nuxt/image-edge": "^1.0.0-rc.1-28110023.6b8ab9c",
     "@nuxtjs/cloudinary": "^2.0.0-rc.3",
+    "axios": "^1.4.0",
     "body-parser": "^1.20.2",
     "bootstrap-vue": "^2.23.1",
     "cloudinary": "^1.37.1",
