@@ -82,6 +82,7 @@ export default {
   left: 0;
   top: 0;
   transform: translate(calc(-50% + 15px), -50%);
+  z-index: 999;
 }
 
 .hover {
