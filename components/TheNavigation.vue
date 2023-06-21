@@ -15,6 +15,9 @@ const route = useRoute()
       <NuxtLink to="/about" class="n-link-base">
         About
       </NuxtLink>
+      <NuxtLink to="/contact" class="n-link-base">
+        Contact
+      </NuxtLink>
     </div>
   </nav>
 </template>
