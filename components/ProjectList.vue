@@ -11,7 +11,11 @@
   let selectedTag = null;
 
   function filterByTag(tag) {
-    selectedTag = tag;
+    if (selectedTag === tag) {
+      selectedTag = null; // Deselect the tag if it's already selected
+    } else {
+      selectedTag = tag;
+    }
   }
 
   const filteredProjects = computed(() => {
@@ -21,6 +25,7 @@
 
     return projects.filter((project) => project.tags.includes(selectedTag));
   });
+  
 </script>
 
 <template>
@@ -55,6 +60,7 @@
                   <p>{{ new Date(project.date).toLocaleDateString() }}</p>
                 </div>
               </NuxtLink>
+              
             </div>
           </div>
         </div>

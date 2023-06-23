@@ -10,6 +10,7 @@
       </div>
     </div>
    <!-- images-->
+   
   </div>
 
   <div class="centered-paragraph">
@@ -45,7 +46,7 @@ html {
 }
 
 .text-wrap {
-  display: grid;
+  display: grid @(--sm) none;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -132,6 +133,86 @@ button a {
   width: 1000px;
   column-count: 2;
   column-gap: 50px;
+
+  @media (--viewport-md-min) {
+      display: flex;
+      margin: 88px 0;
+    }
  
 }
+
+@media (max-width: 767px) {
+  /* Styles for small screens (e.g., mobile phones) */
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-image-right {
+    display: none;
+  }
+
+  .centered-paragraph .paragraph {
+    column-count: 1;
+    width: auto;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens (e.g., tablets) */
+
+  .hero-image {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-image-right {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Extra small screen / phone */
+@custom-media --viewport-xs-min (min-width: 0);
+@custom-media --viewport-xs-max (max-width: 575px);
+
+/* Small medium screen / phablet, large phones */
+@custom-media --viewport-ms-min (min-width: 576px);
+@custom-media --viewport-ms-max (max-width: 767px);
+@custom-media --ms (min-width: 576px);
+
+@custom-media --ms-max (max-width: 767px);
+
+/* Small screen / tablet */
+@custom-media --viewport-sm-min (min-width: 768px);
+@custom-media --viewport-sm-max (max-width: 991px);
+@custom-media --sm (min-width: 768px);
+
+@custom-media --sm-max (max-width: 991px);
+
+/* Medium screen / desktop */
+@custom-media --viewport-md-min (min-width: 992px);
+@custom-media --viewport-md-max (max-width: 1199px);
+@custom-media --md (min-width: 992px);
+
+@custom-media --md-max (max-width: 1199px);
+
+/* Large screen / wide desktop */
+@custom-media --viewport-lg-min (min-width: 1200px);
+@custom-media --viewport-lg-max (max-width: 1399px);
+@custom-media --lg (min-width: 1200px);
+
+@custom-media --lg-max (max-width: 1399px);
+
+/* X Large screen / X wide desktop */
+@custom-media --viewport-xl-min (min-width: 1400px);
+@custom-media --xl (min-width: 1400px);
 </style>

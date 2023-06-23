@@ -31,6 +31,9 @@
     "prismjs": "^1.29.0",
     "rainbow-code": "^2.1.7",
     "thumbor": "^0.1.5",
-    "vue-cursor": "^0.4.1"
+    "vue-cursor": "^0.4.1",
+    "@novicell/eslint-config-nuxt": "^0.2.5",
+    "@novicell/postcss-config": "^0.4.2",
+    "@novicell/stylelint-config": "^0.2.10"
   }
 }

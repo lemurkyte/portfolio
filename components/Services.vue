@@ -103,4 +103,13 @@
     width: 100%;
 }
 }
+
+
+@media only screen and (max-width: 850px) {
+  /* For mobile phones: */
+  .project-list-wrapper {
+display: grid;
+grid-gap: 3%;
+  }
+}
 </style>
