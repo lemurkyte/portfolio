@@ -4,7 +4,6 @@ const isMenuOpen = ref(false)
 
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value
-  console.log("clicked")
 }
 
 </script>
@@ -26,7 +25,7 @@ function toggleMenu() {
         Contact
       </NuxtLink>
     </div>
-    <button class="hamburger" @click="toggleMenu">
+    <button class="hamburger" name="navigation" @click="toggleMenu">
       <span></span>
       <span></span>
       <span></span>
@@ -37,12 +36,15 @@ function toggleMenu() {
     <NuxtLink to="/" class="n-link-base">
         Home
       </NuxtLink>
+      <hr class="solid">
       <NuxtLink to="/projects" class="n-link-base">
         Projects
       </NuxtLink>
+      <hr class="solid">
       <NuxtLink to="/about" class="n-link-base">
         About
       </NuxtLink>
+      <hr class="solid">
       <NuxtLink to="/contact" class="n-link-base">
         Contact
       </NuxtLink>
@@ -98,9 +100,11 @@ function toggleMenu() {
 .mobileB {
   display: none;
   background-color: white;
-  min-height: 300px;
+  min-height: 280px;
   width: 100%;
   z-index: 9;
+  box-shadow: 0 9px 9px -9px gray;
+  
 }
 .mobileB .n-link-base {
   display: block;
@@ -142,5 +146,9 @@ function toggleMenu() {
   .open .nav-links {
     display: flex;
   }
+}
+
+hr.solid {
+  border-top: 1px solid #D1C0A8;
 }
 </style>
