@@ -10,7 +10,9 @@ function toggleMenu() {
 
 <template>
   <nav class="nav sticky top-0 z-50  space-x-1 p-4 shadow-md flex items-center">
-    <h2 class="logo">UGNE SILEIKYTE</h2>
+    <NuxtLink to="/">
+      <h2 class="logo">UGNE SILEIKYTE</h2>
+    </NuxtLink>
     <div class="nav-links ml-auto ms-auto">
       <NuxtLink to="/" class="n-link-base">
         Home
@@ -32,22 +34,22 @@ function toggleMenu() {
     </button>
   </nav>
 
-  <div class="mobileB" :class="{ 'openB' : isMenuOpen }">
+  <div class="mobileB" :class="{ 'openB': isMenuOpen }">
     <NuxtLink to="/" class="n-link-base">
-        Home
-      </NuxtLink>
-      <hr class="solid">
-      <NuxtLink to="/projects" class="n-link-base">
-        Projects
-      </NuxtLink>
-      <hr class="solid">
-      <NuxtLink to="/about" class="n-link-base">
-        About
-      </NuxtLink>
-      <hr class="solid">
-      <NuxtLink to="/contact" class="n-link-base">
-        Contact
-      </NuxtLink>
+      Home
+    </NuxtLink>
+    <hr class="solid">
+    <NuxtLink to="/projects" class="n-link-base">
+      Projects
+    </NuxtLink>
+    <hr class="solid">
+    <NuxtLink to="/about" class="n-link-base">
+      About
+    </NuxtLink>
+    <hr class="solid">
+    <NuxtLink to="/contact" class="n-link-base">
+      Contact
+    </NuxtLink>
   </div>
 </template>
 
@@ -104,15 +106,17 @@ function toggleMenu() {
   width: 100%;
   z-index: 9;
   box-shadow: 0 9px 9px -9px gray;
-  
+
 }
+
 .mobileB .n-link-base {
   display: block;
   background-color: white;
   z-index: 9;
 }
+
 .openB {
-  display: block ;
+  display: block;
 }
 
 .open .hamburger span:nth-child(1) {
@@ -150,5 +154,4 @@ function toggleMenu() {
 
 hr.solid {
   border-top: 1px solid #D1C0A8;
-}
-</style>
+}</style>

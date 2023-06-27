@@ -4,10 +4,25 @@
       <div class="text-wrap">
         <h1>RESPONSIBLE INNOVATION & UX</h1>
         <p>I help my clients innovate with care and build responsible products to be proud of.</p>
-        <div>
+        <div class="button-wrap">
           <a href="/contact"><button class="button">Get in touch</button></a>
         </div>
       </div>
+    </div>
+    <div class="hero-image-right">
+      <img
+  sizes="(min-width: 50em) 50em, 100vw"
+  srcset="https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_256/v1686654357/Portfolio/girl_t2flqz.jpg 256w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_512/v1686654357/Portfolio/girl_t2flqz.jpg 512w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_768/v1686654357/Portfolio/girl_t2flqz.jpg 768w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1024/v1686654357/Portfolio/girl_t2flqz.jpg 1024w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1280/v1686654357/Portfolio/girl_t2flqz.jpg 1280w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1024/v1686654357/Portfolio/girl_t2flqz.jpg 1024w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_1710/v1686654357/Portfolio/girl_t2flqz.jpg 1710w,
+          https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_2048/v1686654357/Portfolio/girl_t2flqz.jpg 2048w,
+          "
+  src="https://res.cloudinary.com/dgawamzxe/image/upload/v1686654357/Portfolio/girl_t2flqz.jpg"
+  alt="Ugne-Sileikyte" />
     </div>
    <!-- images-->
    
@@ -46,7 +61,8 @@ html {
 }
 
 .text-wrap {
-  display: grid @(--sm) none;
+  /*  display: grid @(--sm) none; (sitas dalykas nukelia responsible innovation text up, not vertical aligned middle )*/
+  display: grid;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -143,7 +159,9 @@ button a {
 
 @media (max-width: 767px) {
   /* Styles for small screens (e.g., mobile phones) */
-
+  .text-wrap {
+    padding-top: 10px;
+  }
   .hero-text {
     width: 100%;
   }
@@ -157,6 +175,11 @@ button a {
     width: auto;
     margin: 0 20px;
   }
+
+  .button-wrap {
+    padding-bottom: 20px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
