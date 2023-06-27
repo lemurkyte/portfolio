@@ -23,9 +23,7 @@
           "
   src="https://res.cloudinary.com/dgawamzxe/image/upload/v1686654357/Portfolio/girl_t2flqz.jpg"
   alt="Ugne-Sileikyte" />
-    </div>
-   <!-- images-->
-   
+    </div>   
   </div>
 
   <div class="centered-paragraph">
@@ -179,7 +177,12 @@ button a {
   .button-wrap {
     padding-bottom: 20px;
   }
-
+  .hero-image {
+  display: flex;
+  height: 42%;
+  background-color: #D1C0A8;
+  justify-content: space-between;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

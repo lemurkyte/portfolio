@@ -137,4 +137,22 @@
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+@media (max-width: 767px) {
+  /* Styles for small screens (e.g., mobile phones) */
+  .client-item {
+    margin-left: 0;
+    
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens (e.g., tablets) */
+  .client-item {
+    margin-left: 0;
+    
+}
+
+}
+
 </style>
