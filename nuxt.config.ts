@@ -5,6 +5,7 @@ export default defineNuxtConfig({
           '@nuxt/content',
           '@nuxtjs/tailwindcss',
           '@nuxt/image-edge',
+          '@nuxtjs/cloudinary'
         ],
 
         tailwindcss: {

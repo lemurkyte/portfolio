@@ -18,6 +18,9 @@
   },
   "dependencies": {
     "@luxdamore/vue-cursor-fx": "^1.6.2",
+    "@novicell/eslint-config-nuxt": "^0.2.5",
+    "@novicell/postcss-config": "^0.4.2",
+    "@novicell/stylelint-config": "^0.2.10",
     "@nuxt/image-edge": "^1.0.0-rc.1-28110023.6b8ab9c",
     "@nuxtjs/cloudinary": "^2.0.0-rc.3",
     "axios": "^1.4.0",
@@ -31,9 +34,6 @@
     "prismjs": "^1.29.0",
     "rainbow-code": "^2.1.7",
     "thumbor": "^0.1.5",
-    "vue-cursor": "^0.4.1",
-    "@novicell/eslint-config-nuxt": "^0.2.5",
-    "@novicell/postcss-config": "^0.4.2",
-    "@novicell/stylelint-config": "^0.2.10"
+    "vue-cursor": "^0.4.1"
   }
 }

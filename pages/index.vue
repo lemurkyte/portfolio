@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="hero-image-right">
-      <img
+      <CldImage
   sizes="(min-width: 50em) 50em, 100vw"
   srcset="https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_256/v1686654357/Portfolio/girl_t2flqz.jpg 256w,
           https://res.cloudinary.com/dgawamzxe/image/upload/f_auto/q_auto/c_scale,w_512/v1686654357/Portfolio/girl_t2flqz.jpg 512w,
