@@ -2,7 +2,7 @@
 title: ShareOne App
 description: Learning how to use this neat state management library! Learning how to use this neat state management library! Learning how to use this neat state management library! 
 img: shareone_app.png
-tags: [XDDesign, Illustrator]
+tags: ["UX", "UI", "HTML", "CSS", "CMS"]
 date: 2023-01-25
 
 ---

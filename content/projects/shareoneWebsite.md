@@ -3,7 +3,7 @@ title: ShareOne.dk
 description: Creating UI for ShareOne website
 img: shareone_website.png
 imgAlt: “shareone-website“
-tags: [UX, UI, HTML, CSS]
+tags: ["UX", "UI", "HTML", "CSS", "CMS"]
 date: 2022-08-23
 ---
 

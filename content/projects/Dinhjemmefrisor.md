@@ -3,7 +3,7 @@ title: Dinhjemmefrisor.dk
 description: CMS website hobby project
 img: dinhjemmefrisor_hero.png
 imgAlt: “dinhjemmefrisoer-hjemmeside“
-tags: [UX, UI, HTML, CSS]
+tags: ["UX"]
 date: 2023-08-15
 ---
 

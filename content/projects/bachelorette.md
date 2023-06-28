@@ -3,7 +3,7 @@ title: Bachelorette.dk
 description: Brand identity and a website
 img: bachelorette_Hero.png
 imgAlt: “shareone-website“
-tags: [UX, UI, HTML, CSS, CMS]
+tags: ["UX", "UI", "CMS"]
 date: 2023-04-20
 ---
 

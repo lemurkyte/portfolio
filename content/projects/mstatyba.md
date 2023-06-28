@@ -2,8 +2,8 @@
 title: Mstatyba.com
 description: Site building company
 img: mstatyba.png
-imgAlt: “shareone-website“
-tags: [UX, UI, HTML, CSS, CMS]
+imgAlt: "shareone-website"
+tags: ["UX", "UI", "HTML", "CSS", "CMS"]
 date: 2022-08-23
 ---
 
@@ -19,4 +19,5 @@ My work included developing user stories, scenarios, design in XDdesign and impl
     a {
         text-decoration: none;
     }
+
 </style>

@@ -3,7 +3,7 @@ title: Novicell
 description: Portfolio website during internship at Novicell
 img: novicell.png
 imgAlt: “Novicell-logo“
-tags: [UX, UI, HTML, CSS]
+tags: ["UX", "UI", "HTML", "CSS", "CMS"]
 date: 2022-08-23
 ---
 
