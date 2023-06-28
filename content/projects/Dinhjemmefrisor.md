@@ -30,3 +30,9 @@ Client wanted a minimalistic and neat website, which is easy to navigate and doe
 
 My work included developing user stories, scenarios, design in XDdesign and implementing it on a running application.
 ![Screenshot of dinhjemmefrisør home page section](/img/dinhjemmefrisor_frontpage.png)
+
+<style scoped>
+    a {
+        text-decoration: none;
+    }
+</style>

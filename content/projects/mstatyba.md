@@ -14,3 +14,9 @@ My work included developing user stories, scenarios, design in XDdesign and impl
 - Second item
 - Third item
 - Fourth item
+
+<style scoped>
+    a {
+        text-decoration: none;
+    }
+</style>

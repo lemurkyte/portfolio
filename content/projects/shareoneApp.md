@@ -43,3 +43,8 @@ After the app's launch, I provided post-launch support, addressing any UI-relate
 Overall, the development journey of the ShareOne app UI involved meticulous planning, creative design thinking, and collaboration with the development team to create a visually appealing and user-friendly interface for the file sharing and collaboration platform.
 
 
+<style scoped>
+    a {
+        text-decoration: none;
+    }
+</style>

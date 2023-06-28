@@ -92,6 +92,11 @@ to to be desplayed on each week day by the initials of the name.
 The last part of my internship was to get my hands on Drupal project. Here I had to actually implement a designed I created to the frontend of Drools website.
 
 <style scoped> 
+
+    a {
+        text-decoration: none;
+    }
+
     code {
     background: rgba(0,0,0,.05);
     border-radius: 2px;

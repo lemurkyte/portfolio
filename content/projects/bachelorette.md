@@ -66,3 +66,9 @@ Contact page design
 ![Screenshot of contact form in Bachelorette.dk website](/img/bachelorette_contact.png)
 Footer design
 ![Screenshot of footer section in Bachelorette.dk website](/img/bachelorette_footer.png)
+
+<style scoped>
+    a {
+        text-decoration: none;
+    }
+</style>
