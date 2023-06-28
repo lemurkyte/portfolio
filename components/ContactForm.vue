@@ -1,10 +1,13 @@
+<script setup>
+</script>
+
 <template>
   <section class="bg-white dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
 
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Want to collaborate or
         have any questions? Write me a message!</p>
-      <form name="ContactForm" method="POST" netlify class="space-y-8" data-netlify-honeypot=”bot-field”>
+      <form name="ContactForm" method="POST" netlify class="space-y-8" data-netlify-honeypot=”bot-field” action="/success">
         <input type="hidden" name="form-name" value="ContactForm" />
         <div>
           <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
