@@ -27,7 +27,7 @@ function toggleMenu() {
         Contact
       </NuxtLink>
     </div>
-    <button class="hamburger" name="navigation" @click="toggleMenu">
+    <button class="hamburger" aria-label="Navigation" name="navigation" @click="toggleMenu">
       <span></span>
       <span></span>
       <span></span>

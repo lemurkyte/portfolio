@@ -7,7 +7,7 @@
 
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Want to collaborate or
         have any questions? Write me a message!</p>
-        <form name="contact" method="POST" action="/success"  data-netlify="true">
+        <form name="contact" method="POST" action="/success" id="form1"  data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
