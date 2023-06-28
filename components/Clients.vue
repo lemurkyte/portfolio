@@ -142,7 +142,13 @@
   /* Styles for small screens (e.g., mobile phones) */
   .client-item {
     margin-left: 0;
-    
+}
+.section-header h2 {
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
 }
 
@@ -152,7 +158,13 @@
     margin-left: 0;
     
 }
-
+.section-header h2 {
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
 }
 
 </style>
