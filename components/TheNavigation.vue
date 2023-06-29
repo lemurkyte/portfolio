@@ -1,4 +1,5 @@
 <script setup>
+import { ref, onMounted } from 'vue'
 
 const isMenuOpen = ref(false)
 
@@ -6,6 +7,15 @@ function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value
 }
 
+onMounted(() => {
+  const menuLinks = document.querySelectorAll('.n-link-base')
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      isMenuOpen.value = false
+    })
+  })
+})
 </script>
 
 <template>
