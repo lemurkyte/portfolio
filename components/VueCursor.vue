@@ -94,4 +94,19 @@ export default {
   height: 50px;
   background-color: #D1C0A8;
 }
+
+@media (max-width: 767px) {
+  /* Styles for small screens (e.g., mobile phones) */
+  .cursor, .cursorinnerhover {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens (e.g., tablets) */
+  .cursor, .cursorinnerhover {
+    display: none;
+  }
+}
+
 </style>
