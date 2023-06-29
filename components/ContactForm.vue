@@ -7,26 +7,27 @@
 
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Want to collaborate or
         have any questions? Write me a message!</p>
-        <form name="contact" method="POST" action="/success" id="form1"  data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+        <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="ContactForm" />
+        <div>
+          <label >Your email</label>
+          <input type="email" name="email"
+            
+            placeholder="name@flowbite.com" required>
+        </div>
+        <div>
+          <label >Subject</label>
+          <input type="text" id="subject"
+            placeholder="Let me know how I can help you" required>
+        </div>
+        <div class="sm:col-span-2">
+          <label >Your
+            message</label>
+          <textarea name="message" id="message" rows="6"
+            placeholder="Leave a comment..."></textarea>
+        </div>
+        <button type="submit" class="button">Send message</button>
+      </form>
     </div>
   </section>
 </template>

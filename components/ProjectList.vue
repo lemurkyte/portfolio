@@ -25,11 +25,21 @@
 
     return projects.filter((project) => project.tags.includes(selectedTag));
   });
+
+  const sortedProjects = computed(() => {
+
+    projects.forEach(element => {
+      console.log(element)
+      
+    });
+});
   
+
+
 </script>
 
 <template>
-  <div class="container">
+  <div class="container"> {{ sortedProjects }}
     <div class="row">
       <div class="col-12">
         <div class="tags-wrapper">
