@@ -70,12 +70,41 @@ In summary, the code represents a template for rendering a list of projects with
   </code>
 </pre>
 
-![Screenshot of week board in Drools](/img/drools_week_board.png)
+## Portfolio functionality
+
+
+To close the menu when a NuxtLink is clicked and the page loads I use the onMounted hook to attach a click event listener to each NuxtLink element with the class "n-link-base". When a NuxtLink is clicked, the isMenuOpen value is set to false, thereby closing the menu.
+
+<pre style="background-color: #2e3440">
+  <code data-language="javascript">
+    onMounted(() =&gt; {
+      const menuLinks = document.querySelectorAll('.n-link-base')
+
+      menuLinks.forEach(link =&gt; {
+        link.addEventListener('click', () =&gt; {
+          isMenuOpen.value = false
+        })
+      })
+    })
+  </code>
+</pre>
+
+## Lighthouse
+![Screenshot of week board in Drools](/img/lighthouse_result.png)
+
+## Mobile responsiveness
 
 ## Designing iternal system Drools interface
 On the 2nd week of my internship I got a task to implement a new interface on one of the pages of Drools - Week Board. A workflow was with an ease, because designers already had other pages designed and components created.
 
 Design was made in Figma, which was the first time for me using it. I have plenty of experience using Adobe XD, therefore a new (to me) collaborative interface design tool wasn't difficult to adapt to, because the principle of it is alike compared to XD Design.
+
+Before:
+![Screenshot of week board in Drools](/img/drools_week_board.png)
+After:
+![Screenshot of week board in Drools](/img/Drools-Weekboard.png)
+
+I used icon + label combination for a PHP department for a lower cognitive load. I also added the starting and finishing date of that week, beecause for international people working at the office its difficult sometimes to remember. To ease users experience to a more extent I decided to highlight the current dday of the week by adding a border around. I also checkked if the foreground and background colors are WCAG compatible and it passed the test.
 
 ### Workflow
 

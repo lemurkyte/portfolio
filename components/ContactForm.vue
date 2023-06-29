@@ -60,4 +60,19 @@ button:hover {
   margin-top: 20px;
   font-weight: 400;
 }
+
+@media (max-width: 767px) {
+  /* Styles for small screens (e.g., mobile phones) */
+  input {
+    border: 1px solid black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium screens (e.g., tablets) */
+  input {
+    border: 1px solid black;
+  }
+}
+
 </style>
