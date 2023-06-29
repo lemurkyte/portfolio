@@ -3,35 +3,29 @@ title: Novicell
 description: Portfolio website during internship at Novicell
 img: novicell.png
 imgAlt: “Novicell-logo“
-tags: ["UX", "UI", "HTML", "CSS", "CMS"]
+tags: ["UI", "HTML", "CSS", "JS", "VUE", "NUXT"]
 date: 2022-08-23
 ---
 
 # Novicell
 
-I debuted in Novicell by creating a portfolio website. I reckon it was double efficient, since 
-1. I kept delaying on creating one and it's just so helphul to keep track of your proffesional life + increase opportunity for your future employees to notice you and 
-2. It was a good practise to brush up on my rusty knowledge about Vue.js and Nuxt and learn new things.
+## Description of an internship at Novicell
 
-`<div v-for="project in filteredProjects" :key="project.slug"> ` 
+During my 4-week internship at Novicell, I debuted by creating a portfolio website. I believe this endeavor proved to be doubly efficient as it helped me overcome my procrastination in creating one, while also serving as a valuable tool for maintaining a comprehensive record of my professional accomplishments. Additionally, it enhanced the visibility of my profile, increasing the likelihood of being noticed by potential employers.
+<br><br>
+Moreover, the process of developing the website provided an excellent opportunity to refresh my knowledge of <strong>Vue.js</strong> and <strong>Nuxt</strong>, as well as acquire more knowledge of <strong>JavaScript</strong>. It served as a valuable practice session to brush up on my existing proficiency in these technologies, which had become somewhat rusty over time.
+<br><br>
+Overall, the experience of creating my portfolio website at Novicell was not only highly productive, but it also facilitated professional growth and skill development. I am grateful for the opportunity to engage with these technologies and eagerly anticipate applying the lessons learned in future endeavors.
+<br><br>
+Another project I did was creating a user interface of a week board for one of Novicell's internal systems, called Drools.
+<br><br>
 
-I used a v-for directive to iterate over the filteredProjects array and create a `<div>` element for each project. The `:key` attribute binds the project.slug as the unique identifier for each element. 
+## Portfolio tech stack
+*text incoming*
+<br><br>
 
-`<NuxtLink class="underline" :to="project._path">`: This is a Vue.js component provided by Nuxt.js. It represents a link to another page in the application. The `:to` attribute sets the target path of the link based on project._path.
-
-`<img :src="img/${project.img}" :alt="project.img" class="card-image">`: This line dynamically sets the src attribute of the `<img>` element based on the project.img property. The `:alt` attribute sets the alternative text for the image. The class="card-image" sets the class name to "card-image" for styling purposes.
-
-`<h2 class="card-title">{{ project.title }}</h2>`: This line displays the project.title property as the content of an `<h2>` element. The class="card-title" sets the class name to "card-title" for styling purposes.
-
-`<p class="description">{{ project.description }}</p>`: This line displays the project.description property as the content of a `<p>` element. The class="description" sets the class name to "description" for styling purposes.
-
-`<div class="tags-wrapper">...</div>: This <div> `element is a container for tags specific to each project. It is similar to the tags container mentioned earlier.
-
-`<p>{{ new Date(project.date).toLocaleDateString() }}</p>`: This line displays the project.date property as a formatted date using the toLocaleDateString method of the JavaScript Date object. The result is shown inside a `<p>` element.
-
-In summary, the code represents a template for rendering a list of projects with associated tags. It utilizes Vue.js directives for iterating over arrays, handling events, and dynamically displaying data.
-
-
+## Portfolio functionality
+### Displaying projects
 <pre style="background-color: #2e3440">
   <code data-language="javascript">
     &lt;div class=&quot;col-12&quot;&gt;
@@ -70,7 +64,25 @@ In summary, the code represents a template for rendering a list of projects with
   </code>
 </pre>
 
-## Portfolio functionality
+`<div v-for="project in filteredProjects" :key="project.slug"> ` 
+
+I used a v-for directive to iterate over the filteredProjects array and create a `<div>` element for each project. The `:key` attribute binds the project.slug as the unique identifier for each element. 
+
+`<NuxtLink class="underline" :to="project._path">`: This is a Vue.js component provided by Nuxt.js. It represents a link to another page in the application. The `:to` attribute sets the target path of the link based on project._path.
+
+`<img :src="img/${project.img}" :alt="project.img" class="card-image">`: This line dynamically sets the src attribute of the `<img>` element based on the project.img property. The `:alt` attribute sets the alternative text for the image. The class="card-image" sets the class name to "card-image" for styling purposes.
+
+`<h2 class="card-title">{{ project.title }}</h2>`: This line displays the project.title property as the content of an `<h2>` element. The class="card-title" sets the class name to "card-title" for styling purposes.
+
+`<p class="description">{{ project.description }}</p>`: This line displays the project.description property as the content of a `<p>` element. The class="description" sets the class name to "description" for styling purposes.
+
+`<div class="tags-wrapper">...</div>: This <div> `element is a container for tags specific to each project. It is similar to the tags container mentioned earlier.
+
+`<p>{{ new Date(project.date).toLocaleDateString() }}</p>`: This line displays the project.date property as a formatted date using the toLocaleDateString method of the JavaScript Date object. The result is shown inside a `<p>` element.
+
+In summary, the code represents a template for rendering a list of projects with associated tags. It utilizes Vue.js directives for iterating over arrays, handling events, and dynamically displaying data.
+<br><br>
+### Hamburger menu on load
 
 
 To close the menu when a NuxtLink is clicked and the page loads I use the onMounted hook to attach a click event listener to each NuxtLink element with the class "n-link-base". When a NuxtLink is clicked, the isMenuOpen value is set to false, thereby closing the menu.
@@ -88,37 +100,27 @@ To close the menu when a NuxtLink is clicked and the page loads I use the onMoun
     })
   </code>
 </pre>
-
+<br><br>
 ## Lighthouse
 ![Screenshot of week board in Drools](/img/lighthouse_result.png)
+<br><br>
 
 ## Mobile responsiveness
+*text incoming*
+<br><br>
+## Designing iternal system's interface
+During the second week of my internship, I was assigned the task of implementing a new interface for the Week Board page in Drools. Thankfully, the workflow was smooth due to the fact that the designers had already created designs and components for other pages.
 
-## Designing iternal system Drools interface
-On the 2nd week of my internship I got a task to implement a new interface on one of the pages of Drools - Week Board. A workflow was with an ease, because designers already had other pages designed and components created.
-
-Design was made in Figma, which was the first time for me using it. I have plenty of experience using Adobe XD, therefore a new (to me) collaborative interface design tool wasn't difficult to adapt to, because the principle of it is alike compared to XD Design.
-
+The design for the interface was created using Figma, which was a new experience for me. However, since I have ample experience using Adobe XD, adapting to this new collaborative interface design tool wasn't difficult. The principles of Figma are similar to XD Design, making the transition relatively seamless.
+<br><br>
 Before:
 ![Screenshot of week board in Drools](/img/drools_week_board.png)
+<br><br>
 After:
 ![Screenshot of week board in Drools](/img/Drools-Weekboard.png)
-
-I used icon + label combination for a PHP department for a lower cognitive load. I also added the starting and finishing date of that week, beecause for international people working at the office its difficult sometimes to remember. To ease users experience to a more extent I decided to highlight the current dday of the week by adding a border around. I also checkked if the foreground and background colors are WCAG compatible and it passed the test.
-
-### Workflow
-
-I got an outdated design, which I had to improve by implementing a new interface. It required to have a week number, status of employees:
-- [x] Illness
-- [x] Out of ofice
-- [x] Working from home
-- [x] Info
-
-to to be desplayed on each week day by the initials of the name. 
-
-## Implementing new Drools interface
-
-The last part of my internship was to get my hands on Drupal project. Here I had to actually implement a designed I created to the frontend of Drools website.
+<br>
+To reduce cognitive load, I opted for an icon + label combination when displaying the phone number for the PHP department. Additionally, I included the starting and finishing dates of the week to assist international employees who may find it challenging to remember. To further enhance the user experience, I decided to highlight the current day of the week by adding a border around it. Furthermore, I ensured that the foreground and background colors met WCAG (Web Content Accessibility Guidelines) compatibility standards, and it successfully passed the required tests.
+<br><br>
 
 <style scoped> 
 
