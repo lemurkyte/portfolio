@@ -95,11 +95,16 @@ To close the menu when a NuxtLink is clicked and the page loads I use the onMoun
 ## Lighthouse
 I successfully improved my portfolio website by leveraging the power of the <strong>Lighthouse</strong> tool. Addressing the performance aspect, I focused on optimizing my images to ensure responsiveness. To achieve this, I utilized the capabilities of Cloudinary, a platform that allowed me to seamlessly generate and deliver responsive images on my website. With these enhancements, my portfolio now offers a faster and more user-friendly experience, showcasing my work in the best possible way.
 ![Screenshot of week board in Drools](/img/lighthouse_result.png)
-<br><br>
+<br>
 
 ## Mobile responsiveness
 *text incoming*
 <br><br>
+
+## Deploying
+I successfully deployed my website using <strong>Netlify</strong>, a reliable hosting platform. To implement a fully functional contact form, I made use of Netlify forms. This powerful feature allowed me to receive form submissions directly without the need for complex APIs or SMTP configurations. Additionally, I integrated <strong>Zapier</strong> into the workflow, which now automatically sends the form submissions to my Gmail account. With this seamless setup, I can easily stay updated and respond promptly to any inquiries or messages received through the contact form on my website.
+<br><br>
+
 ## Designing iternal system's interface
 
 Another project I did was creating a user interface of a week board for one of Novicell's internal systems, called Drools.

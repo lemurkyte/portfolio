@@ -157,6 +157,14 @@ button a {
 
 @media (max-width: 767px) {
   /* Styles for small screens (e.g., mobile phones) */
+  
+  .centered-paragraph h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  padding-top: 40px;
+}
   .text-wrap {
     padding-top: 10px;
   }
@@ -179,19 +187,37 @@ button a {
   }
   .hero-image {
   display: flex;
-  height: 45%;
   background-color: #D1C0A8;
   justify-content: space-between;
 }
+
+.text-wrap {
+  /*  display: grid @(--sm) none; (sitas dalykas nukelia responsible innovation text up, not vertical aligned middle )*/
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #D1C0A8;
+
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Styles for medium screens (e.g., tablets) */
 
+
+ .centered-paragraph h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  padding-top: 40px;
+}
   .hero-image {
     flex-direction: column;
     height: auto;
-    height: 45%;
   }
 
   .hero-text {
@@ -202,6 +228,15 @@ button a {
   .hero-image-right {
     width: 100%;
   }
+  .text-wrap {
+  /*  display: grid @(--sm) none; (sitas dalykas nukelia responsible innovation text up, not vertical aligned middle )*/
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #D1C0A8;
+}
 }
 
 
