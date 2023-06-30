@@ -199,7 +199,7 @@ button a {
   align-items: center;
   text-align: center;
   background-color: #D1C0A8;
-
+  margin-bottom: 40px;
 }
 
 }
@@ -236,6 +236,7 @@ button a {
   align-items: center;
   text-align: center;
   background-color: #D1C0A8;
+  margin-bottom: 40px;
 }
 }
 
