@@ -8,20 +8,11 @@ date: 2022-08-23
 ---
 
 # Novicell
-
-## Description of an internship at Novicell
-
 During my 4-week internship at Novicell, I debuted by creating a portfolio website. I believe this endeavor proved to be doubly efficient as it helped me overcome my procrastination in creating one, while also serving as a valuable tool for maintaining a comprehensive record of my professional accomplishments. Additionally, it enhanced the visibility of my profile, increasing the likelihood of being noticed by potential employers.
 <br><br>
 Moreover, the process of developing the website provided an excellent opportunity to refresh my knowledge of <strong>Vue.js</strong> and <strong>Nuxt</strong>, as well as acquire more knowledge of <strong>JavaScript</strong>. It served as a valuable practice session to brush up on my existing proficiency in these technologies, which had become somewhat rusty over time.
 <br><br>
 Overall, the experience of creating my portfolio website at Novicell was not only highly productive, but it also facilitated professional growth and skill development. I am grateful for the opportunity to engage with these technologies and eagerly anticipate applying the lessons learned in future endeavors.
-<br><br>
-Another project I did was creating a user interface of a week board for one of Novicell's internal systems, called Drools.
-<br><br>
-
-## Portfolio tech stack
-*text incoming*
 <br><br>
 
 ## Portfolio functionality
@@ -102,6 +93,7 @@ To close the menu when a NuxtLink is clicked and the page loads I use the onMoun
 </pre>
 <br><br>
 ## Lighthouse
+I successfully improved my portfolio website by leveraging the power of the <strong>Lighthouse</strong> tool. Addressing the performance aspect, I focused on optimizing my images to ensure responsiveness. To achieve this, I utilized the capabilities of Cloudinary, a platform that allowed me to seamlessly generate and deliver responsive images on my website. With these enhancements, my portfolio now offers a faster and more user-friendly experience, showcasing my work in the best possible way.
 ![Screenshot of week board in Drools](/img/lighthouse_result.png)
 <br><br>
 
@@ -109,6 +101,8 @@ To close the menu when a NuxtLink is clicked and the page loads I use the onMoun
 *text incoming*
 <br><br>
 ## Designing iternal system's interface
+
+Another project I did was creating a user interface of a week board for one of Novicell's internal systems, called Drools.
 During the second week of my internship, I was assigned the task of implementing a new interface for the Week Board page in Drools. Thankfully, the workflow was smooth due to the fact that the designers had already created designs and components for other pages.
 
 The design for the interface was created using Figma, which was a new experience for me. However, since I have ample experience using Adobe XD, adapting to this new collaborative interface design tool wasn't difficult. The principles of Figma are similar to XD Design, making the transition relatively seamless.

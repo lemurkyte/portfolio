@@ -6,7 +6,7 @@ imgAlt: “elite-it-portfolio“
 tags: ["UX", "UI","CSS", "CMS"]
 date: 2022-08-23
 ---
-where the hell is alen. so scared. haircut is not supposed to take 2 hours!!
+
 # Elite IT ApS
 Frontend Developer and Graphic designer
 Ansat som projektassistent, software/web- udvikler og digital marketingassistent. Ansat som projektassistent, software/web- udvikler og digital marketingassistent.

@@ -2,8 +2,8 @@
   <div class="hero-image">
     <div class="hero-text">
       <div class="text-wrap">
-        <h1>RESPONSIBLE INNOVATION & UX</h1>
-        <p>I help my clients innovate with care and build responsible products to be proud of.</p>
+        <h1>WEB DEVELOPMENT & UX</h1>
+        <p>I help my clients establish a meaningful online presence and develop responsible products that they can take pride in.</p>
         <div class="button-wrap">
           <a href="/contact"><button class="button">Get in touch</button></a>
         </div>
@@ -179,7 +179,7 @@ button a {
   }
   .hero-image {
   display: flex;
-  height: 42%;
+  height: 45%;
   background-color: #D1C0A8;
   justify-content: space-between;
 }
@@ -191,6 +191,7 @@ button a {
   .hero-image {
     flex-direction: column;
     height: auto;
+    height: 45%;
   }
 
   .hero-text {

@@ -42,7 +42,7 @@
   <div class="container"> {{ sortedProjects }}
     <div class="row">
       <div class="col-12">
-        <div class="tags-wrapper">
+        <!--<div class="tags-wrapper">
           <span
             v-for="tag in allTags"
             :key="tag"
@@ -52,6 +52,7 @@
             {{ tag }}
           </span>
         </div>
+        -->
         <div class="project-list-wrapper">
           <div
             class="card-wrapper col-md-3 col-sm-6 col-xs-12 col-lg-3"
