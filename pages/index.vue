@@ -163,7 +163,7 @@ button a {
   text-align: center;
   font-weight: 500;
   position: relative;
-  padding-top: 40px;
+  padding-top: 40%;
 }
   .text-wrap {
     padding-top: 10px;
@@ -213,7 +213,7 @@ button a {
   text-align: center;
   font-weight: 500;
   position: relative;
-  padding-top: 40px;
+  padding-top: 38%;
 }
   .hero-image {
     flex-direction: column;
